@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.opsc7312_assign3_ques1_11035169"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <!-- WelcomeActivity -->
+        <activity
+            android:name="com.example.opsc7312_assign3_ques1_11035169.WelcomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- LoginCustomer activity -->
+        <activity
+            android:name=".LoginCustomer"
+            android:label="@string/app_name">
+            
+            <intent-filter>
+                <action android:name="com.example.opsc7312_assign3_ques1_11035169.LoginCustomer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+       <!-- DBAdapter class-->
+        <activity
+            android:name=".DBAdapter"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.opsc7312_assign3_ques1_11035169.DBAdapter" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- ViewPrices activity -->
+        <activity
+            android:name=".ViewPrices"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.opsc7312_assign3_ques1_11035169.ViewPrices" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- ChangeCustPassword activity -->
+        <activity
+            android:name=".ChangeCustPassword"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.opsc7312_assign3_ques1_11035169.ChangeCustPassword" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <!-- PointOfSale activity -->
+        <activity
+            android:name=".PointOfSale"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.opsc7312_assign3_ques1_11035169.PointOfSale" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+       
+         <!-- HowToUseApp activity -->
+        <activity
+            android:name=".HowToUseApp"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.opsc7312_assign3_ques1_11035169.HowToUseApp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- CashSale activity -->
+        <activity
+            android:name=".CashSale"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.opsc7312_assign3_ques1_11035169.CashSale" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- LayBuys activity -->
+        <activity
+            android:name=".LayBuys"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.opsc7312_assign3_ques1_11035169.LayBuys" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- StoreLookUp activity -->
+        <activity
+            android:name=".StoreLookUp"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.opsc7312_assign3_ques1_11035169.StoreLookUp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Catalogue activity -->
+        <activity
+            android:name=".Catalogue"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.opsc7312_assign3_ques1_11035169.Catalogue" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- AccessoriesAndUndewear activity -->
+        <activity
+            android:name=".AccessoriesAndUnderwear"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.opsc7312_assign3_ques1_11035169.AccessoriesAndUnderwear" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <!-- ShirtsAndSweatShirts activity -->
+        <activity
+            android:name=".ShirtsAndSweatShirts"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.opsc7312_assign3_ques1_11035169.ShirtsAndSweatShirts" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <!-- JacketsAndJeans activity -->
+        <activity
+            android:name=".JacketsAndJeans"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.opsc7312_assign3_ques1_11035169.JacketsAndJeans" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <!-- GolfersAndBottoms activity -->
+        <activity
+            android:name=".GolfersAndBottoms"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.opsc7312_assign3_ques1_11035169.GolfersAndBottoms" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- FragranceAndFootwear activity -->
+        <activity
+            android:name=".FragranceAndFootwear"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.opsc7312_assign3_ques1_11035169.FragranceAndFootwear" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- FaxLayBuy activity -->
+        <activity
+            android:name=".FaxLayBuy"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.opsc7312_assign3_ques1_11035169.FaxLayBuy" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+       
+        <!-- This recevier will listen to the incoming messages-->
+        <receiver android:name=".SMSReceiver">
+			<intent-filter>
+			<action android:name="android.provider.Telephony.SMS_RECEIVED" />
+			</intent-filter>
+		</receiver>
+        
+    </application>
+
+</manifest>

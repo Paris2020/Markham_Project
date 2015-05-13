@@ -1,0 +1,83 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background4"
+   	android:orientation="vertical">
+    
+    <TableRow >
+        <TextView
+				android:text="CHANGE CUSTOMER PASSWORD"
+				android:width ="160dp"
+				android:layout_height="wrap_content" />
+        		
+		<TextView />        		
+    </TableRow>
+    
+    <TableRow>
+		<TextView
+				android:text="Username:"
+				android:width ="160dp"
+				android:layout_height="wrap_content" />
+		
+		<EditText
+				android:id="@+id/txtUsername"
+				android:width="160dp"
+				android:layout_height="wrap_content"
+				android:text="" />
+	</TableRow>
+    
+    <TableRow>
+		<TextView
+				android:text="New Password:"
+				android:width ="160dp"
+				android:layout_height="wrap_content" />
+		
+		<EditText
+				android:id="@+id/txtNewPass"
+				android:width="160dp"
+				android:password="true"
+				android:layout_height="wrap_content"
+				android:text="" />
+	</TableRow>
+	
+	<TableRow>
+		<TextView
+				android:text="Confirm Password:"/>
+		
+		<EditText
+				android:id="@+id/txtConfirmPass"
+				android:password="true"
+				android:width="160dp"
+				android:layout_height="wrap_content"
+				android:text="" />
+	</TableRow>
+	
+	<TableRow>
+		<Button
+				android:id="@+id/btnChangePass"
+				android:text="CHANGE PASS"
+				android:onClick="onClickChangePass"
+				/>
+	</TableRow>
+	
+	<TableRow>
+	    <TextView />
+		<Button
+				android:id="@+id/btnClear"
+				android:text="CLEAR"
+				android:width="160dp"
+				android:layout_height="wrap_content"
+				android:onClick="onClickClear" />
+	</TableRow>
+	
+	<TableRow >
+	    	<TextView />
+	    	<Button
+				android:id="@+id/btnExit"
+				android:text="EXIT"
+				android:width="160dp"
+				android:layout_height="wrap_content"
+				android:onClick="onClickExit" />
+	</TableRow>
+	
+</TableLayout>

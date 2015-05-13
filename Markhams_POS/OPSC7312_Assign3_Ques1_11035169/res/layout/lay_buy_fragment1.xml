@@ -1,0 +1,110 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <TableRow>
+		<TextView
+				android:text="Product name:"
+				android:width ="160dp"
+				android:layout_height="wrap_content" />
+		
+		<EditText
+				android:id="@+id/txtProductName"
+				android:width="160dp"
+				android:layout_height="wrap_content" />
+	</TableRow>
+	
+     <TableRow>
+		<TextView
+				android:text="Product price:"
+				android:width ="160dp"
+				android:layout_height="wrap_content" />
+		
+		<EditText
+				android:id="@+id/txtProductPrice"
+				android:width="160dp"
+				android:layout_height="wrap_content"
+				android:inputType="number|numberDecimal" />
+	</TableRow>
+	
+     <TableRow>
+		<TextView
+				android:text="Total Due:"
+				android:layout_width ="160dp"
+				android:layout_height="wrap_content" />
+		
+		<TextView
+				android:id="@+id/lblTotalDue"
+				android:layout_width="160dp"
+				android:layout_height="wrap_content"
+				android:text="" />
+	</TableRow>
+	
+      <TableRow>
+		<Button
+		    	android:id="@+id/btnLayBuy"
+				android:text="Lay-Buy"
+				android:layout_width ="160dp"
+				android:layout_height="wrap_content"
+				android:onClick="onClick" />
+		
+		<Button
+		    	android:id="@+id/btnCancel"
+		    	android:text="Cancel Lay-Buy"
+				android:onClick="onClick"
+				android:layout_width="160dp"
+				android:layout_height="wrap_content" />
+	</TableRow>
+	
+     <TableRow>
+		<Button
+		    	android:id="@+id/btnClear"
+				android:text="Clear"
+				android:layout_width ="160dp"
+				android:layout_height="wrap_content"
+				android:onClick="onClick" />
+		
+		<Button
+		    	android:id="@+id/btnExit"
+		    	android:text="Exit"
+				android:onClick="onClick"
+				android:layout_width="160dp"
+				android:layout_height="wrap_content" />
+	</TableRow>
+     
+      <TableRow>
+		<TextView
+				android:text="Product Name:"
+				android:layout_width ="160dp"
+				android:layout_height="wrap_content" />
+		
+		<TextView
+		    	android:text="Product Price"
+				android:layout_width="160dp"
+				android:layout_height="wrap_content"
+				 />
+	</TableRow>
+     <TableRow>
+         
+		<TextView
+		    	android:id="@+id/lblProdName"
+				android:text=""
+				android:layout_width ="160dp"
+				android:layout_height="wrap_content" />
+		
+		<TextView
+				android:id="@+id/lblProdPrice"
+				android:text=""
+				android:layout_width="160dp"
+				android:layout_height="wrap_content" />
+	</TableRow>
+    <Button
+		    	android:id="@+id/btnSendFax"
+		    	android:text="SEND REQUESTED LAY-BUY"
+				android:onClick="onClick"
+				android:layout_width="160dp"
+				android:layout_height="wrap_content" />
+ 
+   
+</TableLayout>

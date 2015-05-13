@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				>
+
+		<Button
+		    android:id="@+id/btn1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:text="ACCESSORIES AND UNDERWEAR"
+		    android:onClick="onClickAU" />
+
+		<Button
+				android:id="@+id/btn2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="SHIRTS AND SWEATSHIRTS"
+				android:layout_alignParentTop="true"
+				android:layout_alignParentRight="true"
+				android:onClick="onClickSS" />
+		<Button
+				android:id="@+id/btn3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="JACKETS AND JEANSWEAR"
+				android:layout_alignParentLeft="true"
+				android:layout_alignParentBottom="true"
+				android:onClick="onClickJJ" />
+		
+		<Button
+				android:id="@+id/btn4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="GOLFERS AND BOTTOMS"
+				android:layout_alignParentRight="true"
+				android:layout_alignParentBottom="true"
+				android:onClick="onClickGB" />
+		<Button
+				android:id="@+id/btn5"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="FRAGRANCE AND FOOTWEAR"
+				android:layout_centerVertical="true"
+				android:layout_centerHorizontal="true"
+				android:onClick="onClickFF" />
+	
+</RelativeLayout>
